@@ -1,0 +1,1 @@
+我配置完之后一直上传失败，后面问ai，有HTTP和SSH两种连接，文章里面用的SSH应该是，我在.ssh目录下配置一个config文件（ touch ~/.ssh/config），在里面输入 Host github.com Hostname ssh.github.com Port 443 User git IdentityFile ~/.ssh/id_rsa # 替换为你的私钥文件路径 就可以上传了，应该是默认的22号端口不能用，改成443就好了。（欢迎指正）
